@@ -1,0 +1,31 @@
+.dot {
+    // height: 25px;
+    // width: 25px;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+  .webflow-style-input {
+      padding-bottom: 5px;
+      border-bottom:2px black solid;
+  }
+
+
+.webflow-style-input input {
+    flex-grow: 1;
+    width: 90%;
+    line-height: 2.4rem;
+    vertical-align: middle;
+
+  }
+  
+  .webflow-style-input button {
+    vertical-align: middle;
+    transition: color .25s;
+    &:hover {
+    //   color: $input-text-active;
+    }
+  }
+
+
+  input { border-style: none; background: transparent; outline: none; }
